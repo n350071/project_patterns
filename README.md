@@ -13,17 +13,18 @@
 
 # パターンの整理の仕方
 
-TOP
- |- パターン集１
- |   |- パターン１
- |   |- パターン２
- |   |- パターン３
- |   --  パターン４
- |- パターン集２
- |   |- パターン１
- |   |- パターン５
- |   -- パターン６
- -- パターン集３
+* このページ
+    * パターン集１
+        * パターン１
+        * パターン２
+        * パターン３
+        * パターン４
+    * パターン集２
+        * パターン１  ←複数のパターンに属するパターンがあってもいい
+        * パターン５
+        * パターン６
+    * パターン集３
+
 
 * パターンは、複数のパターン集に属することができます（パターン集にリンクを追加する）。
 * パターン集同士は、なるべくMECEに重複がないことが望ましいです（あまりに重複が多ければマージしましょう）。
@@ -41,7 +42,5 @@ TOP
 # 参考にしているもの
 * [XP爆誕・C3プロジェクト](http://ronjeffries.com/xprog/articles/practices/pracintro/)
 * [パターン・ランゲージ](https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BF%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%B3%E3%82%B2%E3%83%BC%E3%82%B8)
-* [記法のヒント1](https://jbt.github.io/markdown-editor/)
-* [記法のヒント2(online markdown editor)](http://dillinger.io/)
-
+* [mdファイルviewer](https://stackoverflow.com/questions/9843609/view-markdown-files-offline)
 
